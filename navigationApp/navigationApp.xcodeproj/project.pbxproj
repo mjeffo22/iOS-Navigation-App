@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CC731FB20A9B4F900AC386D /* TbIViewControllerTripInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC731FA20A9B4F900AC386D /* TbIViewControllerTripInfo.swift */; };
+		4CC731FD20A9B53600AC386D /* UITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC731FC20A9B53600AC386D /* UITableViewController.swift */; };
+		4CC7320020A9BACF00AC386D /* Melbourne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CC731FE20A9BACF00AC386D /* Melbourne.jpg */; };
+		4CC7320120A9BACF00AC386D /* Sydney.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CC731FF20A9BACF00AC386D /* Sydney.jpg */; };
+		4CC7320320A9C3EE00AC386D /* TblViewControllerTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC7320220A9C3EE00AC386D /* TblViewControllerTrips.swift */; };
 		4CF3BE9520A8493900DDFCE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3BE9420A8493900DDFCE2 /* AppDelegate.swift */; };
 		4CF3BE9720A8493900DDFCE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3BE9620A8493900DDFCE2 /* ViewController.swift */; };
 		4CF3BE9A20A8493900DDFCE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF3BE9820A8493900DDFCE2 /* Main.storyboard */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CC731FA20A9B4F900AC386D /* TbIViewControllerTripInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TbIViewControllerTripInfo.swift; sourceTree = "<group>"; };
+		4CC731FC20A9B53600AC386D /* UITableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewController.swift; sourceTree = "<group>"; };
+		4CC731FE20A9BACF00AC386D /* Melbourne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Melbourne.jpg; sourceTree = "<group>"; };
+		4CC731FF20A9BACF00AC386D /* Sydney.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sydney.jpg; sourceTree = "<group>"; };
+		4CC7320220A9C3EE00AC386D /* TblViewControllerTrips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TblViewControllerTrips.swift; sourceTree = "<group>"; };
 		4CF3BE9120A8493900DDFCE2 /* navigationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navigationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF3BE9420A8493900DDFCE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CF3BE9620A8493900DDFCE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,9 +109,14 @@
 		4CF3BE9320A8493900DDFCE2 /* navigationApp */ = {
 			isa = PBXGroup;
 			children = (
+				4CC731FE20A9BACF00AC386D /* Melbourne.jpg */,
+				4CC731FF20A9BACF00AC386D /* Sydney.jpg */,
 				4CF3BE9420A8493900DDFCE2 /* AppDelegate.swift */,
 				4CF3BE9620A8493900DDFCE2 /* ViewController.swift */,
 				4CF3BE9820A8493900DDFCE2 /* Main.storyboard */,
+				4CC7320220A9C3EE00AC386D /* TblViewControllerTrips.swift */,
+				4CC731FC20A9B53600AC386D /* UITableViewController.swift */,
+				4CC731FA20A9B4F900AC386D /* TbIViewControllerTripInfo.swift */,
 				4CF3BE9E20A8493A00DDFCE2 /* Assets.xcassets */,
 				4CF3BEA020A8493A00DDFCE2 /* LaunchScreen.storyboard */,
 				4CF3BEA320A8493A00DDFCE2 /* Info.plist */,
@@ -233,6 +248,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CF3BEA220A8493A00DDFCE2 /* LaunchScreen.storyboard in Resources */,
+				4CC7320120A9BACF00AC386D /* Sydney.jpg in Resources */,
+				4CC7320020A9BACF00AC386D /* Melbourne.jpg in Resources */,
 				4CF3BE9F20A8493A00DDFCE2 /* Assets.xcassets in Resources */,
 				4CF3BE9A20A8493900DDFCE2 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC731FB20A9B4F900AC386D /* TbIViewControllerTripInfo.swift in Sources */,
 				4CF3BE9D20A8493900DDFCE2 /* navigationApp.xcdatamodeld in Sources */,
 				4CF3BE9720A8493900DDFCE2 /* ViewController.swift in Sources */,
+				4CC731FD20A9B53600AC386D /* UITableViewController.swift in Sources */,
+				4CC7320320A9C3EE00AC386D /* TblViewControllerTrips.swift in Sources */,
 				4CF3BE9520A8493900DDFCE2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
